@@ -19,8 +19,8 @@ Ensure you have the following installed:
 ### Setup
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/your-username/Distributed-Haskell-Refactoring.git
-   cd Distributed-Haskell-Refactoring
+   git clone https://github.com/GPT-Laboratory/Intelligent-Haskell-Code-Refactoring.git
+   cd Intelligent-Haskell-Code-Refactoring
    ```
 2. **Create a Virtual Environment (Optional but Recommended)**:
    ```sh
