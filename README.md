@@ -49,3 +49,8 @@ Planned installation steps (TBD):
 ```bash
 git clone https://github.com/GPT-Laboratory/Intelligent-Haskell-Code-Refactoring.git
 cd Intelligent-Haskell-Code-Refactoring
+
+first setup backend
+```bash
+cd backend
+uvicorn app:app --reload
