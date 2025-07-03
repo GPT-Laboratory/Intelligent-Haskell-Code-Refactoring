@@ -43,6 +43,9 @@ Evaluated across multiple real-world Haskell projects, the system achieved:
 - 🧼 25% fewer HLint suggestions
 - ✅ 30% fewer GHC warnings
 
+  
+  ![screenshot](https://github.com/GPT-Laboratory/Intelligent-Haskell-Code-Refactoring/blob/main/backend/project_result/results.png)
+
 ---
 
 ## 📦 Installation
