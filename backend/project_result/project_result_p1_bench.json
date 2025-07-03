@@ -1,0 +1,370 @@
+{
+  "project_name": "ProjectName",
+  "analysis": {
+    "pre_refactor": {
+      "overall": {
+        "cyclomatic_complexity": {
+          "min": 2,
+          "max": 6,
+          "average": 6.5,
+          "sum": 13
+        },
+        "hlint_suggestions": {
+          "error": 0,
+          "warning": 1,
+          "suggestion": 0,
+          "ignore": 0,
+          "total": 1
+        },
+        "syntax_errors": 12,
+        "lines_of_code": 113,
+        "homplexity_lines_of_code": 159,
+        "code_quality_score": 58.1,
+        "test_coverage": 80,
+        "performance": {
+          "memory_usage": "11.3MB",
+          "runtime": "1×109ns/iter"
+        },
+        "security_vulnerabilities": 2
+      },
+      "files": [
+        {
+          "file_name": "/tmp/project_86/pre_refactor/Setup.hs",
+          "cyclomatic_complexity": {
+            "min": 1,
+            "max": 1,
+            "average": 1.0,
+            "sum": 1
+          },
+          "hlint_suggestions": {
+            "error": 0,
+            "warning": 0,
+            "suggestion": 0,
+            "ignore": 0,
+            "total": 0
+          },
+          "syntax_errors": 1,
+          "lines_of_code": 2,
+          "homplexity_lines_of_code": 3,
+          "code_quality_score": 97.7,
+          "test_coverage": 80,
+          "performance": {
+            "memory_usage": "10MB",
+            "runtime": "0.5s"
+          },
+          "security_vulnerabilities": 0,
+          "homplexity_analysis": {
+            "cyclomatic_complexity": {
+              "min": 1,
+              "max": 1,
+              "average": 1.0,
+              "sum": 1
+            },
+            "homplexity_loc": 3,
+            "homplexity_output": "Info:/tmp/project_86/pre_refactor/Setup.hs:SrcLoc \"/tmp/project_86/pre_refactor/Setup.hs\" 1 1: <unnamed module> has 2 lines of code \nInfo:/tmp/project_86/pre_refactor/Setup.hs:SrcLoc \"/tmp/project_86/pre_refactor/Setup.hs\" 2 1: function main has 1 lines of code \nInfo:/tmp/project_86/pre_refactor/Setup.hs:SrcLoc \"/tmp/project_86/pre_refactor/Setup.hs\" 2 1: function main has cyclomatic complexity of 1 \nInfo:/tmp/project_86/pre_refactor/Setup.hs:SrcLoc \"/tmp/project_86/pre_refactor/Setup.hs\" 2 1: function main has branching depth of 0 \n"
+          },
+          "original_code": "import Distribution.Simple\nmain = defaultMain\n",
+          "suggestions": [],
+          "refactored_code": {
+            "static_refactored_file": "/tmp/project_86/static_refactored/Setup.hs",
+            "llm_only_refactored_file": "/tmp/project_86/llm_only_refactored/Setup.hs",
+            "hybrid_refactored_file": "/tmp/project_86/hybrid_refactored/Setup.hs"
+          }
+        },
+        {
+          "file_name": "/tmp/project_86/pre_refactor/src/Main.hs",
+          "cyclomatic_complexity": {
+            "min": 1,
+            "max": 5,
+            "average": 2.0,
+            "sum": 12
+          },
+          "hlint_suggestions": {
+            "error": 0,
+            "warning": 1,
+            "suggestion": 0,
+            "ignore": 0,
+            "total": 1
+          },
+          "syntax_errors": 11,
+          "lines_of_code": 111,
+          "homplexity_lines_of_code": 156,
+          "code_quality_score": 60.4,
+          "test_coverage": 80,
+          "performance": {
+            "memory_usage": "10MB",
+            "runtime": "0.5s"
+          },
+          "security_vulnerabilities": 0,
+          "homplexity_analysis": {
+            "cyclomatic_complexity": {
+              "min": 1,
+              "max": 5,
+              "average": 2.0,
+              "sum": 12
+            },
+            "homplexity_loc": 156,
+            "homplexity_output": "Info:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 1 1: module Main has 92 lines of code \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 24 1: type signature for version has 1 arguments \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 24 1: type signature for version has type constructor nesting of 0 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 25 1: function version has 1 lines of code \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 25 1: function version has branching depth of 0 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 25 1: function version has cyclomatic complexity of 1 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 28 7: data Options has record fields count of 4 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 31 1: type signature for before has type constructor nesting of 1 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 31 1: type signature for before has 1 arguments \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 32 1: function before has cyclomatic complexity of 1 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 32 1: function before has 5 lines of code \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 32 1: function before has branching depth of 0 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 39 1: type signature for after has 1 arguments \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 39 1: type signature for after has type constructor nesting of 1 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 40 1: function after has 5 lines of code \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 40 1: function after has cyclomatic complexity of 1 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 40 1: function after has branching depth of 0 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 47 1: type signature for parser has type constructor nesting of 1 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 47 1: type signature for parser has 1 arguments \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 48 1: function parser has branching depth of 0 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 48 1: function parser has cyclomatic complexity of 1 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 48 1: function parser has 12 lines of code \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 62 1: type signature for main has 1 arguments \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 62 1: type signature for main has type constructor nesting of 1 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 63 1: function main has 11 lines of code \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 63 1: function main has branching depth of 2 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 63 1: function main has cyclomatic complexity of 3 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 77 1: type signature for buildBench has type constructor nesting of 1 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 77 1: type signature for buildBench has 4 arguments \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 78 1: function buildBench has cyclomatic complexity of 5 \nInfo:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 78 1: function buildBench has branching depth of 1 \nWarning:/tmp/project_86/pre_refactor/src/Main.hs:SrcLoc \"/tmp/project_86/pre_refactor/src/Main.hs\" 78 1: function buildBench has 30 lines of code should be kept below 20 lines of code.\n"
+          },
+          "original_code": "{-# LANGUAGE OverloadedStrings  #-}\n{-# LANGUAGE RecordWildCards    #-}\n\nmodule Main where\n\nimport Control.Applicative\nimport Data.Monoid ((<>))\nimport Data.Text (Text)\nimport Turtle (ExitCode(..), Parser, ShellFailed(..), s, (%))\n\nimport qualified Control.Exception\nimport qualified Criterion\nimport qualified Criterion.Main         as Criterion\nimport qualified Criterion.Main.Options as Criterion\nimport qualified Data.Text              as Text\nimport qualified Data.Version\nimport qualified Options.Applicative\nimport qualified Paths_bench\nimport qualified System.IO              as IO\nimport qualified System.IO.Silently     as Silently\nimport qualified System.Process\nimport qualified Turtle\n\nversion :: Text\nversion = Text.pack (Data.Version.showVersion Paths_bench.version)\n\ndata Options\n    = Options (Maybe Text) (Maybe Text) [Text] Criterion.Mode\n    | Version deriving (Show)\n\nbefore :: Parser Text\nbefore =\n    Options.Applicative.strOption\n        (   Options.Applicative.long \"before\"\n        <>  Options.Applicative.help \"Specify a command to run before each run of the benchmark\"\n        <>  Options.Applicative.metavar \"command\"\n        )\n\nafter :: Parser Text\nafter =\n    Options.Applicative.strOption\n        (   Options.Applicative.long \"after\"\n        <>  Options.Applicative.help \"Specify a command to run after each run of the benchmark\"\n        <>  Options.Applicative.metavar \"command\"\n        )\n\nparser :: Parser Options\nparser =\n            Version\n        <$  Options.Applicative.flag'\n                ()\n                (   Options.Applicative.long \"version\"\n                <>  Options.Applicative.help \"Version number\"\n                )\n    <|>     Options\n        <$> optional before\n        <*> optional after\n        <*> some\n                (Turtle.argText \"command(s)\" \"The command line(s) to benchmark\")\n        <*> Criterion.parseWith Criterion.defaultConfig\n\nmain :: IO ()\nmain = do\n    x <- Turtle.options \"Command-line tool to benchmark other programs\" parser\n    case x of\n        Options maybeBefore maybeAfter commands mode -> do\n            let benches = map (buildBench maybeBefore maybeAfter) commands\n\n            let benches' = case commands of\n                    [_] -> benches\n                    _   -> [ Criterion.bgroup \"bench\" benches ]\n\n            Criterion.runMode mode benches'\n        Version -> do\n            Turtle.printf (\"bench version \"%s%\"\\n\") version\n\nbuildBench :: Maybe Text -> Maybe Text -> Text -> Criterion.Benchmark\nbuildBench maybeBefore maybeAfter command = do\n    let io cmd = Silently.hSilence [IO.stdout, IO.stderr] $ do\n            let createProcess =\n                    (System.Process.shell (Text.unpack cmd))\n                        { System.Process.std_in  = System.Process.NoStream\n                        }\n\n            exitCode <- Turtle.system createProcess empty\n            case exitCode of\n                ExitFailure _ -> do\n                    Control.Exception.throwIO (ShellFailed cmd exitCode)\n                _  -> do\n                    return ()\n\n    let benchmarkable = case (maybeBefore, maybeAfter) of\n            (Just before_, Just after_) ->\n                Criterion.perRunEnvWithCleanup\n                    (io before_)\n                    (\\_ -> io after_)\n                    (\\_ -> io command)\n            (Just before_, Nothing) ->\n                Criterion.perRunEnvWithCleanup\n                    (io before_)\n                    (\\_ -> return ())\n                    (\\_ -> io command)\n            (Nothing, Just after_) ->\n                Criterion.perRunEnvWithCleanup\n                    (return ())\n                    (\\_ -> io after_)\n                    (\\_ -> io command)\n            (Nothing, Nothing) ->\n                Criterion.nfIO (io command)\n\n    Criterion.bench (Text.unpack command) benchmarkable\n",
+          "suggestions": [
+            {
+              "module": [
+                "Main"
+              ],
+              "decl": [],
+              "severity": "Warning",
+              "hint": "Unused LANGUAGE pragma",
+              "file": "/tmp/project_86/pre_refactor/src/Main.hs",
+              "startLine": 2,
+              "startColumn": 1,
+              "endLine": 2,
+              "endColumn": 36,
+              "from": "{-# LANGUAGE RecordWildCards #-}",
+              "to": "",
+              "note": [
+                "may require `{-# LANGUAGE DisambiguateRecordFields #-}` adding to the top of the file"
+              ],
+              "refactorings": "[ModifyComment {pos = SrcSpan {startLine = 2, startCol = 1, endLine = 2, endCol = 36}, newComment = \"\"}]"
+            }
+          ],
+          "refactored_code": {
+            "static_refactored_file": "/tmp/project_86/static_refactored/src/Main.hs",
+            "llm_only_refactored_file": "/tmp/project_86/llm_only_refactored/src/Main.hs",
+            "hybrid_refactored_file": "/tmp/project_86/hybrid_refactored/src/Main.hs"
+          }
+        }
+      ]
+    },
+    "post_refactor": {
+      "static": {
+        "zero_shot": {},
+        "one_shot": {
+          "overall": {
+            "cyclomatic_complexity": {
+              "min": 2,
+              "max": 6,
+              "average": 6.5,
+              "sum": 13
+            },
+            "hlint_suggestions": {
+              "error": 0,
+              "warning": 0,
+              "suggestion": 0,
+              "ignore": 0,
+              "total": 0
+            },
+            "syntax_errors": 12,
+            "lines_of_code": 113,
+            "homplexity_lines_of_code": 158,
+            "code_quality_score": 58.2,
+            "test_coverage": 80,
+            "performance": {
+              "memory_usage": "150MB",
+              "runtime": "2.3s"
+            },
+            "security_vulnerabilities": 2
+          },
+          "files": [
+            {
+              "file_name": "/tmp/project_86/pre_refactor/Setup.hs",
+              "refactored_file_name": "/tmp/project_86/static_refactored/Setup.hs",
+              "cyclomatic_complexity": {
+                "min": 1,
+                "max": 1,
+                "average": 1.0,
+                "sum": 1
+              },
+              "hlint_suggestions": {
+                "error": 0,
+                "warning": 0,
+                "suggestion": 0,
+                "ignore": 0,
+                "total": 0
+              },
+              "syntax_errors": 1,
+              "lines_of_code": 2,
+              "homplexity_lines_of_code": 3,
+              "code_quality_score": 97.7,
+              "test_coverage": 80,
+              "performance": {
+                "memory_usage": "10MB",
+                "runtime": "0.5s"
+              },
+              "security_vulnerabilities": 0,
+              "homplexity_analysis": {
+                "cyclomatic_complexity": {
+                  "min": 1,
+                  "max": 1,
+                  "average": 1.0,
+                  "sum": 1
+                },
+                "homplexity_loc": 3,
+                "homplexity_output": "Info:/tmp/project_86/static_refactored/Setup.hs:SrcLoc \"/tmp/project_86/static_refactored/Setup.hs\" 1 1: <unnamed module> has 2 lines of code \nInfo:/tmp/project_86/static_refactored/Setup.hs:SrcLoc \"/tmp/project_86/static_refactored/Setup.hs\" 2 1: function main has 1 lines of code \nInfo:/tmp/project_86/static_refactored/Setup.hs:SrcLoc \"/tmp/project_86/static_refactored/Setup.hs\" 2 1: function main has cyclomatic complexity of 1 \nInfo:/tmp/project_86/static_refactored/Setup.hs:SrcLoc \"/tmp/project_86/static_refactored/Setup.hs\" 2 1: function main has branching depth of 0 \n"
+              },
+              "original_code": "import Distribution.Simple\nmain = defaultMain\n",
+              "suggestions": [
+                {
+                  "location": "/tmp/project_86/pre_refactor/Setup.hs",
+                  "suggestion_title": "No suggestions",
+                  "found_block": [
+                    "-- Manual candidate snippet"
+                  ],
+                  "perhaps_block": []
+                }
+              ],
+              "refactored_code": "import Distribution.Simple\nmain = defaultMain\n"
+            },
+            {
+              "file_name": "/tmp/project_86/pre_refactor/src/Main.hs",
+              "refactored_file_name": "/tmp/project_86/static_refactored/src/Main.hs",
+              "cyclomatic_complexity": {
+                "min": 1,
+                "max": 5,
+                "average": 2.0,
+                "sum": 12
+              },
+              "hlint_suggestions": {
+                "error": 0,
+                "warning": 0,
+                "suggestion": 0,
+                "ignore": 0,
+                "total": 0
+              },
+              "syntax_errors": 11,
+              "lines_of_code": 111,
+              "homplexity_lines_of_code": 155,
+              "code_quality_score": 60.5,
+              "test_coverage": 80,
+              "performance": {
+                "memory_usage": "10MB",
+                "runtime": "0.5s"
+              },
+              "security_vulnerabilities": 0,
+              "homplexity_analysis": {
+                "cyclomatic_complexity": {
+                  "min": 1,
+                  "max": 5,
+                  "average": 2.0,
+                  "sum": 12
+                },
+                "homplexity_loc": 155,
+                "homplexity_output": "Info:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 1 1: module Main has 91 lines of code \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 24 1: type signature for version has 1 arguments \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 24 1: type signature for version has type constructor nesting of 0 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 25 1: function version has 1 lines of code \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 25 1: function version has branching depth of 0 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 25 1: function version has cyclomatic complexity of 1 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 28 7: data Options has record fields count of 4 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 31 1: type signature for before has type constructor nesting of 1 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 31 1: type signature for before has 1 arguments \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 32 1: function before has cyclomatic complexity of 1 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 32 1: function before has 5 lines of code \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 32 1: function before has branching depth of 0 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 39 1: type signature for after has 1 arguments \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 39 1: type signature for after has type constructor nesting of 1 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 40 1: function after has 5 lines of code \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 40 1: function after has cyclomatic complexity of 1 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 40 1: function after has branching depth of 0 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 47 1: type signature for parser has type constructor nesting of 1 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 47 1: type signature for parser has 1 arguments \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 48 1: function parser has branching depth of 0 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 48 1: function parser has cyclomatic complexity of 1 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 48 1: function parser has 12 lines of code \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 62 1: type signature for main has 1 arguments \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 62 1: type signature for main has type constructor nesting of 1 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 63 1: function main has 11 lines of code \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 63 1: function main has branching depth of 2 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 63 1: function main has cyclomatic complexity of 3 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 77 1: type signature for buildBench has type constructor nesting of 1 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 77 1: type signature for buildBench has 4 arguments \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 78 1: function buildBench has cyclomatic complexity of 5 \nInfo:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 78 1: function buildBench has branching depth of 1 \nWarning:/tmp/project_86/static_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/static_refactored/src/Main.hs\" 78 1: function buildBench has 30 lines of code should be kept below 20 lines of code.\n"
+              },
+              "original_code": "{-# LANGUAGE OverloadedStrings  #-}\n{-# LANGUAGE RecordWildCards    #-}\n\nmodule Main where\n\nimport Control.Applicative\nimport Data.Monoid ((<>))\nimport Data.Text (Text)\nimport Turtle (ExitCode(..), Parser, ShellFailed(..), s, (%))\n\nimport qualified Control.Exception\nimport qualified Criterion\nimport qualified Criterion.Main         as Criterion\nimport qualified Criterion.Main.Options as Criterion\nimport qualified Data.Text              as Text\nimport qualified Data.Version\nimport qualified Options.Applicative\nimport qualified Paths_bench\nimport qualified System.IO              as IO\nimport qualified System.IO.Silently     as Silently\nimport qualified System.Process\nimport qualified Turtle\n\nversion :: Text\nversion = Text.pack (Data.Version.showVersion Paths_bench.version)\n\ndata Options\n    = Options (Maybe Text) (Maybe Text) [Text] Criterion.Mode\n    | Version deriving (Show)\n\nbefore :: Parser Text\nbefore =\n    Options.Applicative.strOption\n        (   Options.Applicative.long \"before\"\n        <>  Options.Applicative.help \"Specify a command to run before each run of the benchmark\"\n        <>  Options.Applicative.metavar \"command\"\n        )\n\nafter :: Parser Text\nafter =\n    Options.Applicative.strOption\n        (   Options.Applicative.long \"after\"\n        <>  Options.Applicative.help \"Specify a command to run after each run of the benchmark\"\n        <>  Options.Applicative.metavar \"command\"\n        )\n\nparser :: Parser Options\nparser =\n            Version\n        <$  Options.Applicative.flag'\n                ()\n                (   Options.Applicative.long \"version\"\n                <>  Options.Applicative.help \"Version number\"\n                )\n    <|>     Options\n        <$> optional before\n        <*> optional after\n        <*> some\n                (Turtle.argText \"command(s)\" \"The command line(s) to benchmark\")\n        <*> Criterion.parseWith Criterion.defaultConfig\n\nmain :: IO ()\nmain = do\n    x <- Turtle.options \"Command-line tool to benchmark other programs\" parser\n    case x of\n        Options maybeBefore maybeAfter commands mode -> do\n            let benches = map (buildBench maybeBefore maybeAfter) commands\n\n            let benches' = case commands of\n                    [_] -> benches\n                    _   -> [ Criterion.bgroup \"bench\" benches ]\n\n            Criterion.runMode mode benches'\n        Version -> do\n            Turtle.printf (\"bench version \"%s%\"\\n\") version\n\nbuildBench :: Maybe Text -> Maybe Text -> Text -> Criterion.Benchmark\nbuildBench maybeBefore maybeAfter command = do\n    let io cmd = Silently.hSilence [IO.stdout, IO.stderr] $ do\n            let createProcess =\n                    (System.Process.shell (Text.unpack cmd))\n                        { System.Process.std_in  = System.Process.NoStream\n                        }\n\n            exitCode <- Turtle.system createProcess empty\n            case exitCode of\n                ExitFailure _ -> do\n                    Control.Exception.throwIO (ShellFailed cmd exitCode)\n                _  -> do\n                    return ()\n\n    let benchmarkable = case (maybeBefore, maybeAfter) of\n            (Just before_, Just after_) ->\n                Criterion.perRunEnvWithCleanup\n                    (io before_)\n                    (\\_ -> io after_)\n                    (\\_ -> io command)\n            (Just before_, Nothing) ->\n                Criterion.perRunEnvWithCleanup\n                    (io before_)\n                    (\\_ -> return ())\n                    (\\_ -> io command)\n            (Nothing, Just after_) ->\n                Criterion.perRunEnvWithCleanup\n                    (return ())\n                    (\\_ -> io after_)\n                    (\\_ -> io command)\n            (Nothing, Nothing) ->\n                Criterion.nfIO (io command)\n\n    Criterion.bench (Text.unpack command) benchmarkable\n",
+              "suggestions": [
+                {
+                  "location": "/tmp/project_86/pre_refactor/src/Main.hs",
+                  "suggestion_title": "No suggestions",
+                  "found_block": [
+                    "-- Manual candidate snippet"
+                  ],
+                  "perhaps_block": []
+                }
+              ],
+              "refactored_code": "{-# LANGUAGE OverloadedStrings  #-}\n\n\nmodule Main where\n\nimport Control.Applicative\nimport Data.Monoid ((<>))\nimport Data.Text (Text)\nimport Turtle (ExitCode(..), Parser, ShellFailed(..), s, (%))\n\nimport qualified Control.Exception\nimport qualified Criterion\nimport qualified Criterion.Main         as Criterion\nimport qualified Criterion.Main.Options as Criterion\nimport qualified Data.Text              as Text\nimport qualified Data.Version\nimport qualified Options.Applicative\nimport qualified Paths_bench\nimport qualified System.IO              as IO\nimport qualified System.IO.Silently     as Silently\nimport qualified System.Process\nimport qualified Turtle\n\nversion :: Text\nversion = Text.pack (Data.Version.showVersion Paths_bench.version)\n\ndata Options\n    = Options (Maybe Text) (Maybe Text) [Text] Criterion.Mode\n    | Version deriving (Show)\n\nbefore :: Parser Text\nbefore =\n    Options.Applicative.strOption\n        (   Options.Applicative.long \"before\"\n        <>  Options.Applicative.help \"Specify a command to run before each run of the benchmark\"\n        <>  Options.Applicative.metavar \"command\"\n        )\n\nafter :: Parser Text\nafter =\n    Options.Applicative.strOption\n        (   Options.Applicative.long \"after\"\n        <>  Options.Applicative.help \"Specify a command to run after each run of the benchmark\"\n        <>  Options.Applicative.metavar \"command\"\n        )\n\nparser :: Parser Options\nparser =\n            Version\n        <$  Options.Applicative.flag'\n                ()\n                (   Options.Applicative.long \"version\"\n                <>  Options.Applicative.help \"Version number\"\n                )\n    <|>     Options\n        <$> optional before\n        <*> optional after\n        <*> some\n                (Turtle.argText \"command(s)\" \"The command line(s) to benchmark\")\n        <*> Criterion.parseWith Criterion.defaultConfig\n\nmain :: IO ()\nmain = do\n    x <- Turtle.options \"Command-line tool to benchmark other programs\" parser\n    case x of\n        Options maybeBefore maybeAfter commands mode -> do\n            let benches = map (buildBench maybeBefore maybeAfter) commands\n\n            let benches' = case commands of\n                    [_] -> benches\n                    _   -> [ Criterion.bgroup \"bench\" benches ]\n\n            Criterion.runMode mode benches'\n        Version -> do\n            Turtle.printf (\"bench version \"%s%\"\\n\") version\n\nbuildBench :: Maybe Text -> Maybe Text -> Text -> Criterion.Benchmark\nbuildBench maybeBefore maybeAfter command = do\n    let io cmd = Silently.hSilence [IO.stdout, IO.stderr] $ do\n            let createProcess =\n                    (System.Process.shell (Text.unpack cmd))\n                        { System.Process.std_in  = System.Process.NoStream\n                        }\n\n            exitCode <- Turtle.system createProcess empty\n            case exitCode of\n                ExitFailure _ -> do\n                    Control.Exception.throwIO (ShellFailed cmd exitCode)\n                _  -> do\n                    return ()\n\n    let benchmarkable = case (maybeBefore, maybeAfter) of\n            (Just before_, Just after_) ->\n                Criterion.perRunEnvWithCleanup\n                    (io before_)\n                    (\\_ -> io after_)\n                    (\\_ -> io command)\n            (Just before_, Nothing) ->\n                Criterion.perRunEnvWithCleanup\n                    (io before_)\n                    (\\_ -> return ())\n                    (\\_ -> io command)\n            (Nothing, Just after_) ->\n                Criterion.perRunEnvWithCleanup\n                    (return ())\n                    (\\_ -> io after_)\n                    (\\_ -> io command)\n            (Nothing, Nothing) ->\n                Criterion.nfIO (io command)\n\n    Criterion.bench (Text.unpack command) benchmarkable\n"
+            }
+          ]
+        },
+        "chain_of_thought": {}
+      },
+      "llm_only": {
+        "zero_shot": {},
+        "one_shot": {},
+        "chain_of_thought": {}
+      },
+      "hybrid": {
+        "zero_shot": {},
+        "one_shot": {
+          "overall": {
+            "cyclomatic_complexity": {
+              "min": 1,
+              "max": 5,
+              "average": 11.0,
+              "sum": 11
+            },
+            "hlint_suggestions": {
+              "error": 0,
+              "warning": 1,
+              "suggestion": 0,
+              "ignore": 0,
+              "total": 1
+            },
+            "syntax_errors": 11,
+            "lines_of_code": 109,
+            "homplexity_lines_of_code": 152,
+            "code_quality_score": 62.8,
+            "test_coverage": 80,
+            "performance": {
+              "memory_usage": "11.1MB",
+              "runtime": "1×109ns/iter"
+            },
+            "security_vulnerabilities": 2
+          },
+          "files": [
+            {
+              "file_name": "/tmp/project_86/pre_refactor/src/Main.hs",
+              "refactored_file_name": "/tmp/project_86/hybrid_refactored/src/Main.hs",
+              "cyclomatic_complexity": {
+                "min": 1,
+                "max": 5,
+                "average": 1.8333333333333333,
+                "sum": 11
+              },
+              "hlint_suggestions": {
+                "error": 0,
+                "warning": 1,
+                "suggestion": 0,
+                "ignore": 0,
+                "total": 1
+              },
+              "syntax_errors": 11,
+              "lines_of_code": 109,
+              "homplexity_lines_of_code": 152,
+              "code_quality_score": 62.8,
+              "test_coverage": 80,
+              "performance": {
+                "memory_usage": "10MB",
+                "runtime": "0.5s"
+              },
+              "security_vulnerabilities": 0,
+              "homplexity_analysis": {
+                "cyclomatic_complexity": {
+                  "min": 1,
+                  "max": 5,
+                  "average": 1.8333333333333333,
+                  "sum": 11
+                },
+                "homplexity_loc": 152,
+                "homplexity_output": "Info:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 1 1: module Main has 90 lines of code \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 24 1: type signature for version has 1 arguments \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 24 1: type signature for version has type constructor nesting of 0 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 25 1: function version has 1 lines of code \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 25 1: function version has branching depth of 0 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 25 1: function version has cyclomatic complexity of 1 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 28 7: data Options has record fields count of 4 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 31 1: type signature for before has type constructor nesting of 1 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 31 1: type signature for before has 1 arguments \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 32 1: function before has cyclomatic complexity of 1 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 32 1: function before has 5 lines of code \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 32 1: function before has branching depth of 0 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 39 1: type signature for after has 1 arguments \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 39 1: type signature for after has type constructor nesting of 1 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 40 1: function after has 5 lines of code \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 40 1: function after has cyclomatic complexity of 1 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 40 1: function after has branching depth of 0 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 47 1: type signature for parser has type constructor nesting of 1 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 47 1: type signature for parser has 1 arguments \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 48 1: function parser has branching depth of 0 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 48 1: function parser has cyclomatic complexity of 1 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 48 1: function parser has 12 lines of code \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 62 1: type signature for main has 1 arguments \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 62 1: type signature for main has type constructor nesting of 1 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 63 1: function main has 9 lines of code \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 63 1: function main has branching depth of 1 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 63 1: function main has cyclomatic complexity of 2 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 75 1: type signature for buildBench has type constructor nesting of 1 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 75 1: type signature for buildBench has 4 arguments \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 76 1: function buildBench has cyclomatic complexity of 5 \nInfo:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 76 1: function buildBench has branching depth of 1 \nWarning:/tmp/project_86/hybrid_refactored/src/Main.hs:SrcLoc \"/tmp/project_86/hybrid_refactored/src/Main.hs\" 76 1: function buildBench has 30 lines of code should be kept below 20 lines of code.\n"
+              },
+              "original_code": "{-# LANGUAGE OverloadedStrings  #-}\n{-# LANGUAGE RecordWildCards    #-}\n\nmodule Main where\n\nimport Control.Applicative\nimport Data.Monoid ((<>))\nimport Data.Text (Text)\nimport Turtle (ExitCode(..), Parser, ShellFailed(..), s, (%))\n\nimport qualified Control.Exception\nimport qualified Criterion\nimport qualified Criterion.Main         as Criterion\nimport qualified Criterion.Main.Options as Criterion\nimport qualified Data.Text              as Text\nimport qualified Data.Version\nimport qualified Options.Applicative\nimport qualified Paths_bench\nimport qualified System.IO              as IO\nimport qualified System.IO.Silently     as Silently\nimport qualified System.Process\nimport qualified Turtle\n\nversion :: Text\nversion = Text.pack (Data.Version.showVersion Paths_bench.version)\n\ndata Options\n    = Options (Maybe Text) (Maybe Text) [Text] Criterion.Mode\n    | Version deriving (Show)\n\nbefore :: Parser Text\nbefore =\n    Options.Applicative.strOption\n        (   Options.Applicative.long \"before\"\n        <>  Options.Applicative.help \"Specify a command to run before each run of the benchmark\"\n        <>  Options.Applicative.metavar \"command\"\n        )\n\nafter :: Parser Text\nafter =\n    Options.Applicative.strOption\n        (   Options.Applicative.long \"after\"\n        <>  Options.Applicative.help \"Specify a command to run after each run of the benchmark\"\n        <>  Options.Applicative.metavar \"command\"\n        )\n\nparser :: Parser Options\nparser =\n            Version\n        <$  Options.Applicative.flag'\n                ()\n                (   Options.Applicative.long \"version\"\n                <>  Options.Applicative.help \"Version number\"\n                )\n    <|>     Options\n        <$> optional before\n        <*> optional after\n        <*> some\n                (Turtle.argText \"command(s)\" \"The command line(s) to benchmark\")\n        <*> Criterion.parseWith Criterion.defaultConfig\n\nmain :: IO ()\nmain = do\n    x <- Turtle.options \"Command-line tool to benchmark other programs\" parser\n    case x of\n        Options maybeBefore maybeAfter commands mode -> do\n            let benches = map (buildBench maybeBefore maybeAfter) commands\n\n            let benches' = case commands of\n                    [_] -> benches\n                    _   -> [ Criterion.bgroup \"bench\" benches ]\n\n            Criterion.runMode mode benches'\n        Version -> do\n            Turtle.printf (\"bench version \"%s%\"\\n\") version\n\nbuildBench :: Maybe Text -> Maybe Text -> Text -> Criterion.Benchmark\nbuildBench maybeBefore maybeAfter command = do\n    let io cmd = Silently.hSilence [IO.stdout, IO.stderr] $ do\n            let createProcess =\n                    (System.Process.shell (Text.unpack cmd))\n                        { System.Process.std_in  = System.Process.NoStream\n                        }\n\n            exitCode <- Turtle.system createProcess empty\n            case exitCode of\n                ExitFailure _ -> do\n                    Control.Exception.throwIO (ShellFailed cmd exitCode)\n                _  -> do\n                    return ()\n\n    let benchmarkable = case (maybeBefore, maybeAfter) of\n            (Just before_, Just after_) ->\n                Criterion.perRunEnvWithCleanup\n                    (io before_)\n                    (\\_ -> io after_)\n                    (\\_ -> io command)\n            (Just before_, Nothing) ->\n                Criterion.perRunEnvWithCleanup\n                    (io before_)\n                    (\\_ -> return ())\n                    (\\_ -> io command)\n            (Nothing, Just after_) ->\n                Criterion.perRunEnvWithCleanup\n                    (return ())\n                    (\\_ -> io after_)\n                    (\\_ -> io command)\n            (Nothing, Nothing) ->\n                Criterion.nfIO (io command)\n\n    Criterion.bench (Text.unpack command) benchmarkable\n",
+              "suggestions": [
+                {
+                  "target_snippet": "version :: Text\nversion = Text.pack (Data.Version.showVersion Paths_bench.version)",
+                  "refactored_suggestion": "version :: Text\nversion = \"1.0.0\"  -- Replace with an actual hardcoded version for reduced runtime dependency on Paths_bench",
+                  "confidence": 0.8,
+                  "justification": "Directly using a hardcoded version eliminates the need for the runtime dependency on Paths_bench. This simplifies the build process and avoids the need to regenerate Paths_bench during builds; however, update the hardcoded version manually in source when bumping versions."
+                },
+                {
+                  "target_snippet": "let benches' = case commands of\n                    [_] -> benches\n                    _   -> [ Criterion.bgroup \"bench\" benches ]",
+                  "refactored_suggestion": "let benches' = [ Criterion.bgroup \"bench\" benches ]",
+                  "confidence": 0.7,
+                  "justification": "The special case for a single command creates unnecessary complexity. Removing the special case simplifies the code without changing the behavior significantly."
+                },
+                {
+                  "target_snippet": "        <>  Options.Applicative.metavar \"command\"",
+                  "refactored_suggestion": "        <>  Options.Applicative.metavar \"COMMAND\"",
+                  "confidence": 0.9,
+                  "justification": "Using uppercase for `metavar` strings is a conventional standard in command-line tools, which increases readability and consistency with similar tools."
+                }
+              ],
+              "refactored_code": "{-# LANGUAGE OverloadedStrings  #-}\n{-# LANGUAGE RecordWildCards    #-}\n\nmodule Main where\n\nimport Control.Applicative\nimport Data.Monoid ((<>))\nimport Data.Text (Text)\nimport Turtle (ExitCode(..), Parser, ShellFailed(..), s, (%))\n\nimport qualified Control.Exception\nimport qualified Criterion\nimport qualified Criterion.Main         as Criterion\nimport qualified Criterion.Main.Options as Criterion\nimport qualified Data.Text              as Text\nimport qualified Data.Version\nimport qualified Options.Applicative\nimport qualified Paths_bench\nimport qualified System.IO              as IO\nimport qualified System.IO.Silently     as Silently\nimport qualified System.Process\nimport qualified Turtle\n\nversion :: Text\nversion = \"1.0.0\"  -- Replace with an actual hardcoded version for reduced runtime dependency on Paths_bench\n\ndata Options\n    = Options (Maybe Text) (Maybe Text) [Text] Criterion.Mode\n    | Version deriving (Show)\n\nbefore :: Parser Text\nbefore =\n    Options.Applicative.strOption\n        (   Options.Applicative.long \"before\"\n        <>  Options.Applicative.help \"Specify a command to run before each run of the benchmark\"\n        <>  Options.Applicative.metavar \"COMMAND\"\n        )\n\nafter :: Parser Text\nafter =\n    Options.Applicative.strOption\n        (   Options.Applicative.long \"after\"\n        <>  Options.Applicative.help \"Specify a command to run after each run of the benchmark\"\n        <>  Options.Applicative.metavar \"COMMAND\"\n        )\n\nparser :: Parser Options\nparser =\n            Version\n        <$  Options.Applicative.flag'\n                ()\n                (   Options.Applicative.long \"version\"\n                <>  Options.Applicative.help \"Version number\"\n                )\n    <|>     Options\n        <$> optional before\n        <*> optional after\n        <*> some\n                (Turtle.argText \"command(s)\" \"The command line(s) to benchmark\")\n        <*> Criterion.parseWith Criterion.defaultConfig\n\nmain :: IO ()\nmain = do\n    x <- Turtle.options \"Command-line tool to benchmark other programs\" parser\n    case x of\n        Options maybeBefore maybeAfter commands mode -> do\n            let benches = map (buildBench maybeBefore maybeAfter) commands\n\n            let benches' = [ Criterion.bgroup \"bench\" benches ]\n\n            Criterion.runMode mode benches'\n        Version -> do\n            Turtle.printf (\"bench version \"%s%\"\\n\") version\n\nbuildBench :: Maybe Text -> Maybe Text -> Text -> Criterion.Benchmark\nbuildBench maybeBefore maybeAfter command = do\n    let io cmd = Silently.hSilence [IO.stdout, IO.stderr] $ do\n            let createProcess =\n                    (System.Process.shell (Text.unpack cmd))\n                        { System.Process.std_in  = System.Process.NoStream\n                        }\n\n            exitCode <- Turtle.system createProcess empty\n            case exitCode of\n                ExitFailure _ -> do\n                    Control.Exception.throwIO (ShellFailed cmd exitCode)\n                _  -> do\n                    return ()\n\n    let benchmarkable = case (maybeBefore, maybeAfter) of\n            (Just before_, Just after_) ->\n                Criterion.perRunEnvWithCleanup\n                    (io before_)\n                    (\\_ -> io after_)\n                    (\\_ -> io command)\n            (Just before_, Nothing) ->\n                Criterion.perRunEnvWithCleanup\n                    (io before_)\n                    (\\_ -> return ())\n                    (\\_ -> io command)\n            (Nothing, Just after_) ->\n                Criterion.perRunEnvWithCleanup\n                    (return ())\n                    (\\_ -> io after_)\n                    (\\_ -> io command)\n            (Nothing, Nothing) ->\n                Criterion.nfIO (io command)\n\n    Criterion.bench (Text.unpack command) benchmarkable\n"
+            }
+          ]
+        },
+        "chain_of_thought": {}
+      }
+    }
+  }
+}
