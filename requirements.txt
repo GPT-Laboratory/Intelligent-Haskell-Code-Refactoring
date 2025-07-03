@@ -1,0 +1,38 @@
+# LLM and agent orchestration
+openai>=1.14.3
+langchain>=0.1.14
+langgraph>=0.0.35
+langchainhub>=0.1.15
+
+# Haskell-specific tooling and interfacing
+subprocess32; platform_system == "Linux"
+pyyaml
+regex
+
+# Code parsing, linting, and formatting (may invoke HLint, etc.)
+requests
+beautifulsoup4
+
+# Debugging and verification
+pytest
+rich
+pydantic>=2.0
+
+# Optional: interface to LLM APIs like Anthropic, Cohere, etc.
+# anthropic
+# cohere
+
+# CLI and utils
+typer[all]
+tqdm
+click
+
+# If interacting with GitHub
+PyGithub
+
+# Optional: for working with notebook-style interfaces
+jupyter
+ipython
+
+# Optional visualization (e.g., agent flow diagrams)
+graphviz
