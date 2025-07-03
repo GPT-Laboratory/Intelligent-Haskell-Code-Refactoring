@@ -76,3 +76,15 @@ Evaluated across multiple real-world Haskell projects, the system achieved:
    cd frontend
    npm run start
    ```
+
+
+
+## 📚 Citation
+If you use this work in your research, please cite:
+
+@article{siddeeq2025llm,
+  title={LLM-based Multi-Agent System for Intelligent Refactoring of Haskell Code},
+  author={Siddeeq, Shahbaz and Waseem, Muhammad and Rasheed, Zeeshan and Hasan, Md Mahade and Rasku, Jussi and Saari, Mika and Terho, Henri and Makela, Kalle and Kemell, Kai-Kristian and Abrahamsson, Pekka},
+  journal={arXiv preprint arXiv:2506.19481},
+  year={2025}
+}
