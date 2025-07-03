@@ -45,10 +45,7 @@ Evaluated across multiple real-world Haskell projects, the system achieved:
 
 ## 📦 Installation
 
-> **⚠️ NOTE:** Codebase is not yet publicly available. Please watch the repo for updates.
-
 Planned installation steps (TBD):
 ```bash
 git clone https://github.com/GPT-Laboratory/Intelligent-Haskell-Code-Refactoring.git
 cd Intelligent-Haskell-Code-Refactoring
-stack build
