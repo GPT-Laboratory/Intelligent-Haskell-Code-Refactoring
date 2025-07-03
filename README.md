@@ -45,12 +45,29 @@ Evaluated across multiple real-world Haskell projects, the system achieved:
 
 ## 📦 Installation
 
-Planned installation steps (TBD):
-```bash
-git clone https://github.com/GPT-Laboratory/Intelligent-Haskell-Code-Refactoring.git
-cd Intelligent-Haskell-Code-Refactoring
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/GPT-Laboratory/Intelligent-Haskell-Code-Refactoring.git
+   cd Intelligent-Haskell-Code-Refactoring
+   ```
+2. **Create a Virtual Environment (Optional but Recommended)**:
+   ```sh
+   python -m venv venv
+   source venv/bin/activate   # On Windows use: venv\Scripts\activate
+   ```
+3. **Install Dependencies**:
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-first setup backend
-```bash
-cd backend
-uvicorn app:app --reload
+## Usage
+1. **Setup Backend Script**:
+   ```sh
+   cd backend
+   uvicorn app:app --reload
+   ```
+2. **Setup Frontend Panel**:
+   ```sh
+   cd frontend
+   npm run start
+   ```
