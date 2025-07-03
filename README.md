@@ -65,7 +65,7 @@ Evaluated across multiple real-world Haskell projects, the system achieved:
    pip install -r requirements.txt
    ```
 
-## Usage
+## 🛠️ Usage
 1. **Setup Backend Script**:
    ```sh
    cd backend
