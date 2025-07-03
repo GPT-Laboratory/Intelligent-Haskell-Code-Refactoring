@@ -20,6 +20,8 @@ This project introduces a fully automated, multi-agent framework that applies LL
 
 ## 🧠 System Architecture
 
+![screenshot](https://github.com/GPT-Laboratory/Intelligent-Haskell-Code-Refactoring/blob/main/Expertimental%20Design.png)
+
 The framework employs four specialized LLM-powered agents:
 
 1. **Code Analysis Agent (CAA):** Identifies refactoring opportunities.
